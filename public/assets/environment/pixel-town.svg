@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420" shape-rendering="crispEdges">
+  <defs>
+    <pattern id="seawall" width="128" height="48" patternUnits="userSpaceOnUse">
+      <path fill="#20393a" d="M0 0h128v48H0z"/>
+      <path fill="#49605a" d="M0 0h56v5H0zm72 0h56v5H72zM20 22h76v4H20zm92 0h16v4h-16z"/>
+      <path fill="#142b2e" d="M56 0h5v22h-5zm40 22h5v26h-5zM0 43h128v5H0z"/>
+    </pattern>
+  </defs>
+
+  <g opacity=".72">
+    <path fill="#132f33" d="M92 283h92l18 18H76zm466-6h116l24 20H538zm604 10h106l22 16h-150z"/>
+    <path fill="#8c9f94" d="M112 270h48v7h-48zm474-8h48v7h-48zm600 10h54v7h-54z"/>
+    <path fill="#cb7950" d="m122 252 18-24 6 24zm486-16 16-26 8 26zm600 22 16-24 7 24z"/>
+    <path fill="#1c3538" d="M138 226h5v28h-5zm484-18h5v30h-5zm600 24h5v28h-5z"/>
+  </g>
+
+  <g>
+    <path fill="#172d31" d="M24 350V244h24v-20h152v18h28v108z"/>
+    <path fill="#773f36" d="m12 230 36-54h146l48 54z"/>
+    <path fill="#392f31" d="M20 224h212v13H20z"/>
+    <path fill="#52635c" d="M55 258h58v92H55zm98 16h44v76h-44z"/>
+    <path fill="#e5a64e" d="M68 274h26v24H68zm98 14h20v22h-20z"/>
+    <path fill="#263f3f" d="M68 274h4v24h-4zm13 0h4v24h-4zm85 14h4v22h-4z"/>
+    <path fill="#c36b45" d="M118 238h26v12h-26z"/>
+  </g>
+
+  <g>
+    <path fill="#1a3538" d="M268 350V206h30v-20h148v20h26v144z"/>
+    <path fill="#27494a" d="M294 224h152v126H294z"/>
+    <path fill="#375854" d="M310 246h50v104h-50zm72-8h46v112h-46z"/>
+    <path fill="#334040" d="m254 194 48-54h132l54 54z"/>
+    <path fill="#915044" d="M270 190h200v13H270zm28-40h126v9H298z"/>
+    <path fill="#e8ad56" d="M322 264h24v26h-24zm72-8h22v28h-22z"/>
+    <path fill="#1b3033" d="M330 264h4v26h-4zm72-8h4v28h-4z"/>
+    <path fill="#b56344" d="M350 208h38v12h-38z"/>
+  </g>
+
+  <g>
+    <path fill="#152d31" d="M508 350V258h20v-18h154v18h20v92z"/>
+    <path fill="#556761" d="M530 266h150v84H530z"/>
+    <path fill="#643b38" d="m498 246 44-52h128l44 52z"/>
+    <path fill="#2b3436" d="M508 240h196v12H508z"/>
+    <path fill="#d78b48" d="M548 282h28v24h-28zm78 0h28v24h-28z"/>
+    <path fill="#243b3c" d="M558 282h4v24h-4zm78 0h4v24h-4z"/>
+    <path fill="#304846" d="M588 310h34v40h-34z"/>
+  </g>
+
+  <g>
+    <path fill="#173237" d="M740 350V220h22v-22h146v20h26v132z"/>
+    <path fill="#3d5956" d="M766 232h142v118H766z"/>
+    <path fill="#763f39" d="m730 208 38-50h128l54 50z"/>
+    <path fill="#313738" d="M738 202h202v13H738z"/>
+    <path fill="#e3a14a" d="M784 252h26v24h-26zm72 0h28v24h-28zm-34 46h28v30h-28z"/>
+    <path fill="#263b3c" d="M792 252h5v24h-5zm73 0h5v24h-5zm-34 46h5v30h-5z"/>
+    <path fill="#9e5841" d="M802 216h48v11h-48z"/>
+  </g>
+
+  <g>
+    <path fill="#132c31" d="M972 350V264h22v-18h176v18h24v86z"/>
+    <path fill="#455f5b" d="M998 274h168v76H998z"/>
+    <path fill="#3a3636" d="m960 254 50-58h138l58 58z"/>
+    <path fill="#865044" d="M972 248h220v13H972z"/>
+    <path fill="#e7a951" d="M1022 292h28v24h-28zm84 0h28v24h-28z"/>
+    <path fill="#253b3c" d="M1031 292h4v24h-4zm84 0h4v24h-4z"/>
+    <path fill="#243c3e" d="M1066 310h30v40h-30z"/>
+  </g>
+
+  <g>
+    <path fill="#173135" d="M1230 350V212h24v-18h192v20h20v136z"/>
+    <path fill="#51635c" d="M1256 228h184v122h-184z"/>
+    <path fill="#6f413b" d="m1218 202 54-64h158l52 64z"/>
+    <path fill="#323638" d="M1228 196h242v13h-242z"/>
+    <path fill="#e9ad52" d="M1280 252h28v26h-28zm84 0h28v26h-28zm-42 52h28v26h-28z"/>
+    <path fill="#263c3d" d="M1289 252h5v26h-5zm84 0h5v26h-5zm-42 52h5v26h-5z"/>
+    <path fill="#b96343" d="M1320 212h50v12h-50z"/>
+  </g>
+
+  <g fill="#142a2e">
+    <path d="M92 350V112h10v238zm-20-224h62v9H72zM476 350V94h11v256zm-22-242h68v9h-68zM956 350V118h10v232zm-20-218h64v9h-64zm510 218V88h11v262zm-22-248h70v9h-70z"/>
+    <path d="M98 126h126v4h126v-10h132v5h132v8h132v-7h116v-6h98v7h126v6h132v-8h154v4h132v4h-132v-4h-154v8h-132v-6h-126v-7h-98v6H746v7H614v-8H482v-5H350v10H224v-4H98z"/>
+  </g>
+
+  <g>
+    <path fill="#263f40" d="M0 350h1600v70H0z"/>
+    <rect y="366" width="1600" height="54" fill="url(#seawall)"/>
+    <path fill="#718078" d="M0 350h1600v9H0z"/>
+    <path fill="#a0aa9d" d="M0 350h1600v3H0z" opacity=".76"/>
+    <path fill="#182d30" d="M0 410h1600v10H0z"/>
+  </g>
+</svg>

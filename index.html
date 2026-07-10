@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#485d5c" />
+    <meta name="description" content="逐风少年：骑着自行车穿过暴雨小镇，赶在台风前抵达避风站。" />
+    <title>逐风少年</title>
+  </head>
+  <body>
+    <main id="game-shell">
+      <div id="game-canvas" aria-label="逐风少年游戏画面"></div>
+
+      <header id="hud" class="hud is-hidden" aria-label="游戏状态">
+        <div class="hud__primary">
+          <div class="hud__brand">逐风少年</div>
+          <div class="hud__progress" aria-label="前往避风站的进度">
+            <div class="hud__progress-track"><span id="progress-fill"></span></div>
+            <span id="distance-label">0 / 2200 m</span>
+          </div>
+          <div class="hud__survival" aria-label="与台风的距离">
+            <span class="hud__symbol hud__symbol--storm" aria-hidden="true">◎</span>
+            <div class="hud__bar hud__bar--storm"><span id="storm-fill"></span></div>
+          </div>
+        </div>
+        <div class="hud__secondary">
+          <div class="hud__energy" aria-label="冲刺体力">
+            <span class="hud__symbol" aria-hidden="true">↯</span>
+            <div class="hud__bar hud__bar--energy"><span id="energy-fill"></span></div>
+          </div>
+          <div class="hud__token" aria-label="收集的风车"><span aria-hidden="true">✦</span><strong id="token-count">0</strong></div>
+          <div class="hud__tools">
+            <button id="sound-button" class="icon-button" type="button" aria-label="静音" title="静音">♪</button>
+            <button id="pause-button" class="icon-button" type="button" aria-label="暂停" title="暂停">Ⅱ</button>
+          </div>
+        </div>
+      </header>
+
+      <section id="start-screen" class="overlay overlay--start">
+        <div class="start-copy">
+          <div class="start-mark" aria-hidden="true"></div>
+          <p class="eyebrow">沿海撤离线 · 台风登陆前</p>
+          <h1>逐风少年</h1>
+          <p class="subtitle">避风站的灯还亮着。</p>
+          <button id="start-button" class="primary-button" type="button"><span aria-hidden="true">▶</span> 出发</button>
+        </div>
+      </section>
+
+      <section id="pause-screen" class="overlay overlay--modal is-hidden" aria-labelledby="pause-title">
+        <div class="modal-panel">
+          <p class="eyebrow">风声凝止</p>
+          <h2 id="pause-title">暂停</h2>
+          <button id="resume-button" class="primary-button" type="button"><span aria-hidden="true">▶</span> 继续</button>
+          <button id="restart-from-pause" class="text-button" type="button">重新启程</button>
+        </div>
+      </section>
+
+      <section id="result-screen" class="overlay overlay--modal is-hidden" aria-labelledby="result-title">
+        <div class="modal-panel">
+          <p id="result-kicker" class="eyebrow">台风追上来了</p>
+          <h2 id="result-title">别停下</h2>
+          <p id="result-stat" class="result-stat">你骑出了 0 米</p>
+          <button id="restart-button" class="primary-button" type="button"><span aria-hidden="true">↻</span> 再试一次</button>
+        </div>
+      </section>
+
+      <div id="mobile-controls" class="mobile-controls is-hidden" aria-label="触摸控制">
+        <button id="jump-button" class="touch-button touch-button--jump" type="button" aria-label="跳跃"><span aria-hidden="true">↑</span></button>
+        <button id="boost-button" class="touch-button touch-button--boost" type="button" aria-label="加速"><span aria-hidden="true">»</span></button>
+      </div>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

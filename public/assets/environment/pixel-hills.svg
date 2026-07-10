@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" shape-rendering="crispEdges">
+  <defs>
+    <pattern id="sea-lines" width="176" height="52" patternUnits="userSpaceOnUse">
+      <path fill="#284f51" d="M0 8h56v4H0zm76 18h72v4H76zm-38 18h96v4H38z"/>
+      <path fill="#6f8980" d="M18 12h28v3H18zm84 18h34v3h-34zm-46 18h42v3H56z" opacity=".38"/>
+    </pattern>
+    <pattern id="rain-curtain" width="112" height="128" patternUnits="userSpaceOnUse" patternTransform="skewX(-12)">
+      <path fill="#9eb0a8" d="M12 0h3v42h-3zm38 36h3v62h-3zm42-22h3v48h-3z" opacity=".16"/>
+    </pattern>
+  </defs>
+
+  <rect y="48" width="1600" height="286" fill="url(#rain-curtain)"/>
+
+  <path fill="#526964" d="M0 302V226l54-18 50-42 50 14 58-74 50 50 54-24 54 50 52-20 58 72 60-44 56 30 66-92 62 62 56-28 62 70 58-44 58 34 60-84 62 56 56-18 70 66 68-36 54 20 62-52 64 58 62-30 62 18v104H0z"/>
+  <path fill="#344f4e" d="M0 330V270l48-22 40 10 52-44 48 28 62-102 52 64 42-22 62 66 48-38 58 54 58-88 54 70 48-16 58 62 58-40 54 20 60-68 58 66 52-30 58 56 56-94 62 76 46-20 66 56 56-30 58 34 64-62 70 70 74-30 54 26 44-14v62H0z"/>
+  <path fill="#243e41" d="M0 348v-42l72-34 56 22 64-72 64 82 70-44 72 60 64-30 62-48 72 84 66-56 68 54 68-76 66 74 62-26 70 54 72-92 70 92 62-40 78 66 72-54 64 38 72-72 76 80 68-26 68 34v26H0z"/>
+  <path fill="#193337" d="M0 366v-26l82-22 66 12 72-32 70 44 84-20 76 28 86-46 86 50 86-22 84 30 78-42 88 46 76-24 96 34 86-54 88 48 86-24 86 40 86-22 80 28v24H0z"/>
+
+  <rect y="350" width="1600" height="150" fill="#18383d"/>
+  <rect y="350" width="1600" height="150" fill="url(#sea-lines)" opacity=".92"/>
+  <path fill="#9bada3" d="M0 360h126v4H0zm176 24h192v4H176zm246-16h84v3h-84zm132 38h210v4H554zm258-34h126v4H812zm174 30h180v4H986zm230-38h104v3h-104zm150 22h190v4h-190z" opacity=".36"/>
+  <path fill="#c3c8b5" d="M92 430h62v3H92zm222 32h118v3H314zm264-26h78v3h-78zm242 34h136v3H820zm286-38h92v3h-92zm238 28h124v3h-124z" opacity=".24"/>
+</svg>

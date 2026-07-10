@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="448" height="64" viewBox="0 0 448 64" shape-rendering="crispEdges">
+  <g transform="translate(0)">
+    <path fill="#10242c" d="M8 24h48v26H8zM12 50h8v10h-8zm32 0h8v10h-8z"/>
+    <path fill="#e2b84b" d="M12 28h40v16H12z"/>
+    <path fill="#d65348" d="M12 39v-7h7zm10 5h-8l17-16h9zm20 0h-9l17-16h2v7z"/>
+  </g>
+  <g transform="translate(64)">
+    <path fill="#10242c" d="M9 8h46v52H9z"/>
+    <path fill="#85543a" d="M14 13h36v42H14z"/>
+    <path fill="#c07a48" d="M14 13h7l29 34v8h-7L14 21zm36 0v8L21 55h-7v-8l29-34z"/>
+    <path fill="#4a342f" d="M14 29h36v6H14z"/>
+  </g>
+  <g transform="translate(128)">
+    <path fill="#153d55" d="M2 46h8v-5h12v-4h20v4h12v5h8v8H2z"/>
+    <path fill="#438fa6" d="M10 45h12v-4h20v4h12v5H10z"/>
+    <path fill="#b8d6ce" d="M20 43h12v3H20zm18 3h10v3H38z"/>
+  </g>
+  <g transform="translate(192)">
+    <path fill="#10242c" d="M2 49h60v11H2zM8 42h42v8H8zm10-8h32v9H18zm18-8h20v9H36z"/>
+    <path fill="#624335" d="M5 50h48v6H5zm9-7h33v6H14zm10-8h25v7H24zm16-8h12v7H40z"/>
+    <path fill="#3f7155" d="M10 31h14v7H10zm25-12h13v7H35zm14 16h12v7H49z"/>
+  </g>
+  <g transform="translate(256)">
+    <path fill="#10242c" d="M27 27h10v33H27zM15 56h34v6H15zM5 3h54v31H5z"/>
+    <path fill="#e2b84b" d="M9 7h46v23H9z"/>
+    <path fill="#d65348" d="M15 14h27v-6l11 10-11 10v-6H15z"/>
+    <path fill="#f5f1d7" d="M12 25h23v3H12z"/>
+  </g>
+  <g transform="translate(320)">
+    <path fill="#10242c" d="M20 2h24v4h8v8h6v8h4v20h-4v8h-8v8h-8v4H22v-4h-8v-8H6v-8H2V22h4v-8h6V6h8z"/>
+    <path fill="#b5443f" d="M21 8h22v4h7v7h5v26h-5v7h-7v4H21v-4h-7v-7H9V19h5v-7h7z"/>
+    <path fill="#e2b84b" d="M28 10h8v44h-8zM10 28h44v8H10z"/>
+    <path fill="#10242c" d="M29 19h6v9h9v7h-9v10h-6V35h-9v-7h9z"/>
+  </g>
+  <g transform="translate(384)">
+    <path fill="#f1e3a1" d="M28 2h8v4h8v6h6v8h6v24h-6v8h-6v6h-8v4h-8v-4h-8v-6h-6v-8H8V20h6v-8h6V6h8z" opacity=".35"/>
+    <path fill="#10242c" d="M29 7h6v21h22v7H35v22h-6V35H7v-7h22z"/>
+    <path fill="#e2b84b" d="M29 8v19L14 14h8l7 6zm7 20V9l14 13v7H43zm-7 8v19L14 42v-7h7zm7-1v20l14-14v-6H43z"/>
+    <rect x="27" y="27" width="10" height="10" fill="#d65348"/>
+  </g>
+</svg>
