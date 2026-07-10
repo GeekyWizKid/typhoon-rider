@@ -253,7 +253,7 @@ button:focus-visible {
 .overlay--start {
   align-items: flex-start;
   justify-content: flex-start;
-  padding-top: clamp(72px, 13vh, 148px);
+  padding-top: clamp(52px, 8vh, 92px);
   padding-left: clamp(28px, 7vw, 138px);
   text-align: left;
   text-shadow: 3px 3px 0 rgb(7 22 25 / 84%);
@@ -335,6 +335,61 @@ h1 {
 .primary-button:active {
   transform: translate(4px, 4px);
   box-shadow: 2px 2px 0 #8f4938;
+}
+
+.start-controls {
+  width: min(400px, calc(100vw - 48px));
+  margin-top: 20px;
+  padding: 9px 12px 10px;
+  border: 1px solid rgb(201 218 207 / 24%);
+  border-left: 4px solid var(--sea);
+  background: rgb(8 25 28 / 76%);
+  box-shadow: 4px 4px 0 rgb(4 16 18 / 38%);
+  text-shadow: none;
+}
+
+.start-controls__title {
+  margin: 0 0 7px;
+  color: var(--signal);
+  font-size: 10px;
+  font-weight: 900;
+}
+
+.control-list {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.control-list li {
+  display: grid;
+  grid-template-columns: 132px 1fr;
+  align-items: center;
+  gap: 9px;
+  color: #d5dccf;
+  font-size: 10px;
+  font-weight: 750;
+  line-height: 1.25;
+}
+
+.control-list kbd {
+  display: inline-flex;
+  min-height: 23px;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 7px;
+  border: 1px solid #718b83;
+  background: #142e32;
+  color: var(--paper);
+  box-shadow: 2px 2px 0 var(--ink-deep);
+  font: 800 9px/1 ui-monospace, "SFMono-Regular", monospace;
+  white-space: nowrap;
+}
+
+.control-list--touch {
+  display: none;
 }
 
 .overlay--modal {
@@ -505,6 +560,34 @@ h1 {
     background-size: 304px 76px;
   }
 
+  .start-controls {
+    width: min(340px, calc(100vw - 36px));
+    margin-top: 17px;
+    padding: 8px 10px 9px;
+    text-align: left;
+  }
+
+  .control-list--desktop {
+    display: none;
+  }
+
+  .control-list--touch {
+    display: grid;
+  }
+
+  .control-list li {
+    grid-template-columns: 34px 1fr;
+    gap: 8px;
+    font-size: 9px;
+  }
+
+  .control-list kbd {
+    width: 30px;
+    min-height: 26px;
+    padding: 2px;
+    font-size: 17px;
+  }
+
   h1 {
     font-size: clamp(44px, 14vw, 64px);
   }
@@ -546,6 +629,24 @@ h1 {
 
   .subtitle {
     margin: 8px 0 15px;
+  }
+
+  .start-controls {
+    margin-top: 10px;
+    padding-block: 6px;
+  }
+
+  .start-controls__title {
+    margin-bottom: 4px;
+  }
+
+  .control-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 5px 10px;
+  }
+
+  .control-list li {
+    gap: 5px;
   }
 
   .modal-panel {

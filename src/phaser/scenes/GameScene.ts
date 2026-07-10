@@ -120,6 +120,7 @@ export class GameScene extends Phaser.Scene {
       this.audioController.unlock();
       this.clearEntityViews();
       this.simulation.start(this.scale.width);
+      this.audioController.startMusic();
       this.cameras.main.stopFollow();
       this.cameras.main.setAlpha(1);
       emitGameEvent("state", this.simulation.state);
@@ -134,17 +135,20 @@ export class GameScene extends Phaser.Scene {
 
   private pauseGame(): void {
     this.simulation.pause();
+    this.audioController.pauseMusic();
     emitGameEvent("state", this.simulation.state);
   }
 
   private resumeGame(): void {
     this.audioController.unlock();
     this.simulation.resume();
+    this.audioController.resumeMusic();
     emitGameEvent("state", this.simulation.state);
   }
 
   private renderState(dt: number): void {
     const state = this.simulation.state;
+    this.audioController.setThreat(state.stormGap, state.boosting);
     this.hills.tilePositionX = state.worldOffset * 0.055;
     this.town.tilePositionX = state.worldOffset * 0.18;
     this.rider.update(state, dt, this.groundY);
